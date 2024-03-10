@@ -68,9 +68,10 @@ task2 = Task(description=prompt, agent=campaign_creator, expected_output="A bull
 prompt = st.text_area("What Digital Marketing Content would You like me to generate Today?")
 task3 = Task(description=prompt, agent=digital_marketer, expected_output="A bullet list summary of the top 5")
 
-#1 = Task(description='Come up with 3 marketing trends in the pet industry in the food department, grooming department and toys department', agent=market_researcher)
-#2 = Task(description='Come up with marketing campaign ideas based on market research trends', agent=campaign_creator)
-#3 = Task(description='Produce digital marketing content related to marketing trends', agent=digital_marketer)
+# textos a preencher
+# What are the trends in real estate marketing, which can be done in a simple way, by independent real estate agents
+# Create content that encourages only qualified leads to get in touch
+# Create blog posts with great SEO to rank on Google
 
 # Create crew
 crew = Crew(
